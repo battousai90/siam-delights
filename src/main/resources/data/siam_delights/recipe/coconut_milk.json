@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "siam_delights:coconut_meat",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "siam_delights:coconut_milk",
+    "count": 1
+  }
+}

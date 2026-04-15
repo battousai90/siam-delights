@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "siam_delights:coconut"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "siam_delights:coconut_meat"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife",
+  "sound": "minecraft:block.wood.break"
+}

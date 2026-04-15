@@ -1,0 +1,12 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.5,
+  "ingredients": [
+    "#c:crops/rice",
+    "siam_delights:coconut_milk"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "siam_delights:sticky_rice"
+  }
+}

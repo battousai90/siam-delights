@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "ingredients": [
+    "siam_delights:sliced_mango",
+    "siam_delights:sticky_rice",
+    "siam_delights:coconut_milk"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "siam_delights:mango_sticky_rice"
+  }
+}

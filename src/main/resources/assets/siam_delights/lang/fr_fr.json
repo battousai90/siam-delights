@@ -1,3 +1,24 @@
 {
-  "item.siam_delights.mango": "Mangue"
+  "item.siam_delights.mango": "Mangue",
+  "item.siam_delights.coconut": "Noix de coco",
+  "item.siam_delights.coconut_meat": "Chair de coco",
+  "item.siam_delights.coconut_milk": "Lait de coco",
+  "item.siam_delights.sliced_mango": "Mangue en tranches",
+  "item.siam_delights.sticky_rice": "Riz gluant",
+  "item.siam_delights.mango_sticky_rice": "Riz gluant à la mangue",
+  "item.siam_delights.mango_sticky_rice.tooltip": "Doux et réconfortant",
+  "item.siam_delights.tom_yum": "Tom Yum",
+  "item.siam_delights.tom_yum.tooltip": "Frais et régénérant",
+  "item.siam_delights.coconut_log": "Bûche de cocotier",
+  "item.siam_delights.coconut_leaves": "Feuilles de cocotier",
+  "item.siam_delights.coconut_sapling": "Jeune cocotier",
+  "item.siam_delights.mango_log": "Bûche de manguier",
+  "item.siam_delights.mango_leaves": "Feuilles de manguier",
+  "item.siam_delights.mango_sapling": "Jeune manguier",
+  "block.siam_delights.coconut_log": "Bûche de cocotier",
+  "block.siam_delights.coconut_leaves": "Feuilles de cocotier",
+  "block.siam_delights.coconut_sapling": "Jeune cocotier",
+  "block.siam_delights.mango_log": "Bûche de manguier",
+  "block.siam_delights.mango_leaves": "Feuilles de manguier",
+  "block.siam_delights.mango_sapling": "Jeune manguier"
 }

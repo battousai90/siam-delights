@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mango": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["siam_delights:mango"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "siam_delights:mango_to_sliced"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mango"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "siam_delights:mango_to_sliced"
+    ]
+  }
+}

@@ -1,3 +1,24 @@
 {
-  "item.siam_delights.mango": "Mango"
+  "item.siam_delights.mango": "Mango",
+  "item.siam_delights.coconut": "Coconut",
+  "item.siam_delights.coconut_meat": "Coconut Meat",
+  "item.siam_delights.coconut_milk": "Coconut Milk",
+  "item.siam_delights.sliced_mango": "Sliced Mango",
+  "item.siam_delights.sticky_rice": "Sticky Rice",
+  "item.siam_delights.mango_sticky_rice": "Mango Sticky Rice",
+  "item.siam_delights.mango_sticky_rice.tooltip": "Sweet & Comforting",
+  "item.siam_delights.tom_yum": "Tom Yum",
+  "item.siam_delights.tom_yum.tooltip": "Refreshing & Healing",
+  "item.siam_delights.coconut_log": "Coconut Log",
+  "item.siam_delights.coconut_leaves": "Coconut Leaves",
+  "item.siam_delights.coconut_sapling": "Coconut Sapling",
+  "item.siam_delights.mango_log": "Mango Log",
+  "item.siam_delights.mango_leaves": "Mango Leaves",
+  "item.siam_delights.mango_sapling": "Mango Sapling",
+  "block.siam_delights.coconut_log": "Coconut Log",
+  "block.siam_delights.coconut_leaves": "Coconut Leaves",
+  "block.siam_delights.coconut_sapling": "Coconut Sapling",
+  "block.siam_delights.mango_log": "Mango Log",
+  "block.siam_delights.mango_leaves": "Mango Leaves",
+  "block.siam_delights.mango_sapling": "Mango Sapling"
 }

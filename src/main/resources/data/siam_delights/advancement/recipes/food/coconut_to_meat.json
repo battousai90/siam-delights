@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coconut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["siam_delights:coconut"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "siam_delights:coconut_to_meat"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coconut"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "siam_delights:coconut_to_meat"
+    ]
+  }
+}
