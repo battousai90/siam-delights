@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "siam_delights",
+	"version": "${version}",
+	"name": "Siam Delights",
+	"description": "Thai cuisine and tropical fruits for Minecraft, integrated with Farmer's Delight.",
+	"authors": [
+		"Battousai90"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/siam_delights/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.battousai90.siamdelights.SiamDelights"
+		],
+		"client": [
+			"net.battousai90.siamdelights.client.SiamDelightsClient"
+		]
+	},
+	"mixins": [
+		"siam_delights.mixins.json",
+		{
+			"config": "siam_delights.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~26.1.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
