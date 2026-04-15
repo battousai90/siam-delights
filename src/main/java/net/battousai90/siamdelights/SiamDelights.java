@@ -1,5 +1,6 @@
 package net.battousai90.siamdelights;
 
+import net.battousai90.siamdelights.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,7 @@ public class SiamDelights implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.initialize();
 		LOGGER.info("Siam Delights initialized!");
 	}
 }
