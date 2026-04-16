@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "siam_delights:lemongrass"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "siam_delights:lemongrass"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife",
+  "sound": "minecraft:block.grass.break"
+}

@@ -15,10 +15,19 @@ public class ModFoods {
     public static final FoodProperties COCONUT = simple(2, 0.2f);
     public static final FoodProperties COCONUT_MEAT = simple(4, 0.4f);
 
+    // ─── HERBS & AROMATICS ─────────────────────────────────────────────────
+
+    public static final FoodProperties LEMONGRASS = simple(1, 0.1f);
+    public static final FoodProperties GALANGAL    = simple(1, 0.1f);
+    public static final FoodProperties MAKRUT_LEAF = simple(1, 0.1f);
+    public static final FoodProperties MAKRUT      = simple(2, 0.3f);
+    public static final FoodProperties THAI_BASIL  = simple(1, 0.2f);
+
     // ─── TRANSFORMED ───────────────────────────────────────────────────────
 
-    public static final FoodProperties SLICED_MANGO = simple(5, 0.6f);
-    public static final FoodProperties STICKY_RICE = simple(6, 0.5f);
+    public static final FoodProperties SLICED_MANGO    = simple(5, 0.6f);
+    public static final FoodProperties SLICED_GALANGAL = simple(1, 0.1f);
+    public static final FoodProperties STICKY_RICE     = simple(6, 0.5f);
 
     // ─── DISHES ────────────────────────────────────────────────────────────
 

@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_makrut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": ["siam_delights:makrut"] } ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "siam_delights:makrut_juice" }
+    }
+  },
+  "requirements": [ ["has_the_recipe", "has_makrut"] ],
+  "rewards": { "recipes": ["siam_delights:makrut_juice"] }
+}

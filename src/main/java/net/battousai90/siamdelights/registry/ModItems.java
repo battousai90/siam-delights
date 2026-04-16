@@ -29,6 +29,29 @@ public class ModItems {
     public static final SiamFoodItem COCONUT = register("coconut",
             props -> new SiamFoodItem(props.food(ModFoods.COCONUT)));
 
+    // ─── HERBS & AROMATICS ──────────────────────────────────────────────────
+
+    public static final SiamFoodItem LEMONGRASS = register("lemongrass",
+            props -> new SiamFoodItem(props.food(ModFoods.LEMONGRASS)));
+
+    public static final SiamFoodItem GALANGAL = register("galangal",
+            props -> new SiamFoodItem(props.food(ModFoods.GALANGAL)));
+
+    public static final SiamFoodItem MAKRUT_LEAF = register("makrut_leaf",
+            props -> new SiamFoodItem(props.food(ModFoods.MAKRUT_LEAF)));
+
+    public static final SiamFoodItem MAKRUT = register("makrut",
+            props -> new SiamFoodItem(props.food(ModFoods.MAKRUT)));
+
+    public static final SiamFoodItem SLICED_GALANGAL = register("sliced_galangal",
+            props -> new SiamFoodItem(props.food(ModFoods.SLICED_GALANGAL)));
+
+    public static final Item MAKRUT_JUICE = register("makrut_juice",
+            props -> new Item(props));
+
+    public static final SiamFoodItem THAI_BASIL = register("thai_basil",
+            props -> new SiamFoodItem(props.food(ModFoods.THAI_BASIL)));
+
     // ─── TRANSFORMED ────────────────────────────────────────────────────────
 
     public static final SiamFoodItem COCONUT_MEAT = register("coconut_meat",
@@ -75,6 +98,24 @@ public class ModItems {
     public static final BlockItem MANGO_SAPLING = register("mango_sapling",
             props -> new BlockItem(ModBlocks.MANGO_SAPLING, props));
 
+    public static final BlockItem MAKRUT_LOG = register("makrut_log",
+            props -> new BlockItem(ModBlocks.MAKRUT_LOG, props));
+
+    public static final BlockItem MAKRUT_LEAVES = register("makrut_leaves",
+            props -> new BlockItem(ModBlocks.MAKRUT_LEAVES, props));
+
+    public static final BlockItem MAKRUT_SAPLING = register("makrut_sapling",
+            props -> new BlockItem(ModBlocks.MAKRUT_SAPLING, props));
+
+    public static final BlockItem THAI_BASIL_PLANT = register("thai_basil_plant",
+            props -> new BlockItem(ModBlocks.THAI_BASIL_PLANT, props));
+
+    public static final BlockItem GALANGAL_CROP = register("galangal_crop",
+            props -> new BlockItem(ModBlocks.GALANGAL_CROP, props));
+
+    public static final BlockItem LEMONGRASS_PLANT = register("lemongrass_plant",
+            props -> new BlockItem(ModBlocks.LEMONGRASS_PLANT, props));
+
     // ─── Helpers ────────────────────────────────────────────────────────────
 
     private static <T extends Item> T register(String name, Function<Item.Properties, T> factory) {
@@ -89,6 +130,14 @@ public class ModItems {
             // Raw
             output.accept(MANGO);
             output.accept(COCONUT);
+            // Herbs & Aromatics
+            output.accept(LEMONGRASS);
+            output.accept(GALANGAL);
+            output.accept(MAKRUT_LEAF);
+            output.accept(MAKRUT);
+            output.accept(SLICED_GALANGAL);
+            output.accept(MAKRUT_JUICE);
+            output.accept(THAI_BASIL);
             // Transformed
             output.accept(COCONUT_MEAT);
             output.accept(COCONUT_MILK);
@@ -105,6 +154,12 @@ public class ModItems {
             output.accept(MANGO_LOG);
             output.accept(MANGO_LEAVES);
             output.accept(MANGO_SAPLING);
+            // Blocks — Makrut
+            output.accept(MAKRUT_LOG);
+            output.accept(MAKRUT_LEAVES);
+            output.accept(MAKRUT_SAPLING);
+            output.accept(THAI_BASIL_PLANT);
+            output.accept(LEMONGRASS_PLANT);
         });
     }
 }

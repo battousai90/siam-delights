@@ -2,7 +2,11 @@ package net.battousai90.siamdelights.registry;
 
 import net.battousai90.siamdelights.SiamDelights;
 import net.battousai90.siamdelights.block.CoconutLeavesBlock;
+import net.battousai90.siamdelights.block.GalangalCropBlock;
+import net.battousai90.siamdelights.block.LemongrassPlantBlock;
+import net.battousai90.siamdelights.block.MakrutLeavesBlock;
 import net.battousai90.siamdelights.block.MangoLeavesBlock;
+import net.battousai90.siamdelights.block.ThaiBasilPlantBlock;
 import net.battousai90.siamdelights.worldgen.ModConfiguredFeatures;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -89,6 +93,58 @@ public class ModBlocks {
 
     public static final SaplingBlock MANGO_SAPLING = register("mango_sapling",
             props -> new SaplingBlock(MANGO_TREE_GROWER, props), saplingProps());
+
+    // ─── Makrut Tree ─────────────────────────────────────────────────────────
+
+    public static final TreeGrower MAKRUT_TREE_GROWER = new TreeGrower(
+            "makrut",
+            Optional.empty(),
+            Optional.of(ModConfiguredFeatures.MAKRUT_TREE),
+            Optional.empty()
+    );
+
+    public static final RotatedPillarBlock MAKRUT_LOG = register("makrut_log",
+            props -> new RotatedPillarBlock(props), logProps());
+
+    public static final MakrutLeavesBlock MAKRUT_LEAVES = register("makrut_leaves",
+            props -> new MakrutLeavesBlock(props), leavesProps());
+
+    public static final SaplingBlock MAKRUT_SAPLING = register("makrut_sapling",
+            props -> new SaplingBlock(MAKRUT_TREE_GROWER, props), saplingProps());
+
+    // ─── Galangal Crop ───────────────────────────────────────────────────────
+
+    public static final GalangalCropBlock GALANGAL_CROP = register("galangal_crop",
+            props -> new GalangalCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Lemongrass Plant ────────────────────────────────────────────────────
+
+    public static final LemongrassPlantBlock LEMONGRASS_PLANT = register("lemongrass_plant",
+            props -> new LemongrassPlantBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .sound(SoundType.GRASS)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Thai Basil Plant ────────────────────────────────────────────────────
+
+    public static final ThaiBasilPlantBlock THAI_BASIL_PLANT = register("thai_basil_plant",
+            props -> new ThaiBasilPlantBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .sound(SoundType.GRASS)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
 
     // ─── Helpers ─────────────────────────────────────────────────────────────
 

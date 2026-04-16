@@ -23,5 +23,25 @@ public class ModWorldGeneration {
                 GenerationStep.Decoration.VEGETAL_DECORATION,
                 ModPlacedFeatures.MANGO_TREE
         );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.MAKRUT_TREE
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.THAI_BASIL_PLANT
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.GALANGAL_CROP
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.LEMONGRASS_PLANT
+        );
     }
 }

@@ -20,5 +20,27 @@
   "block.siam_delights.coconut_sapling": "Jeune cocotier",
   "block.siam_delights.mango_log": "Bûche de manguier",
   "block.siam_delights.mango_leaves": "Feuilles de manguier",
-  "block.siam_delights.mango_sapling": "Jeune manguier"
+  "block.siam_delights.mango_sapling": "Jeune manguier",
+
+  "item.siam_delights.lemongrass": "Citronnelle",
+  "item.siam_delights.galangal": "Galanga",
+  "item.siam_delights.sliced_galangal": "Galanga tranché",
+  "item.siam_delights.makrut_leaf": "Feuille de combava",
+  "item.siam_delights.makrut": "Combava",
+  "item.siam_delights.makrut_juice": "Jus de combava",
+  "item.siam_delights.thai_basil": "Basilic thaï",
+
+  "item.siam_delights.makrut_log": "Bûche de combava",
+  "item.siam_delights.makrut_leaves": "Feuilles de combava",
+  "item.siam_delights.makrut_sapling": "Jeune combava",
+  "item.siam_delights.thai_basil_plant": "Plant de basilic thaï",
+
+  "block.siam_delights.makrut_log": "Bûche de combava",
+  "block.siam_delights.makrut_leaves": "Feuilles de combava",
+  "block.siam_delights.makrut_sapling": "Jeune combava",
+  "block.siam_delights.thai_basil_plant": "Plant de basilic thaï",
+
+  "block.siam_delights.galangal_crop": "Galanga",
+  "block.siam_delights.lemongrass_plant": "Plant de citronnelle",
+  "item.siam_delights.lemongrass_plant": "Plant de citronnelle"
 }

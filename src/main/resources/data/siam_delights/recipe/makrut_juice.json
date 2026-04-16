@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "siam_delights:makrut",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "siam_delights:makrut_juice",
+    "count": 1
+  }
+}

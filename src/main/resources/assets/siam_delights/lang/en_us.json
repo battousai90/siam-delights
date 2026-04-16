@@ -20,5 +20,27 @@
   "block.siam_delights.coconut_sapling": "Coconut Sapling",
   "block.siam_delights.mango_log": "Mango Log",
   "block.siam_delights.mango_leaves": "Mango Leaves",
-  "block.siam_delights.mango_sapling": "Mango Sapling"
+  "block.siam_delights.mango_sapling": "Mango Sapling",
+
+  "item.siam_delights.lemongrass": "Lemongrass",
+  "item.siam_delights.galangal": "Galangal",
+  "item.siam_delights.sliced_galangal": "Sliced Galangal",
+  "item.siam_delights.makrut_leaf": "Makrut Lime Leaf",
+  "item.siam_delights.makrut": "Makrut Lime",
+  "item.siam_delights.makrut_juice": "Makrut Juice",
+  "item.siam_delights.thai_basil": "Thai Basil",
+
+  "item.siam_delights.makrut_log": "Makrut Log",
+  "item.siam_delights.makrut_leaves": "Makrut Leaves",
+  "item.siam_delights.makrut_sapling": "Makrut Sapling",
+  "item.siam_delights.thai_basil_plant": "Thai Basil Plant",
+
+  "block.siam_delights.makrut_log": "Makrut Log",
+  "block.siam_delights.makrut_leaves": "Makrut Leaves",
+  "block.siam_delights.makrut_sapling": "Makrut Sapling",
+  "block.siam_delights.thai_basil_plant": "Thai Basil Plant",
+
+  "block.siam_delights.galangal_crop": "Galangal",
+  "block.siam_delights.lemongrass_plant": "Lemongrass Plant",
+  "item.siam_delights.lemongrass_plant": "Lemongrass Plant"
 }

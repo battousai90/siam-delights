@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "siam_delights:galangal"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "siam_delights:sliced_galangal"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife",
+  "sound": "minecraft:block.wood.break"
+}

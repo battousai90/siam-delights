@@ -15,4 +15,20 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> MANGO_TREE =
             ResourceKey.create(Registries.PLACED_FEATURE,
                     Identifier.fromNamespaceAndPath(SiamDelights.MOD_ID, "mango_tree"));
+
+    public static final ResourceKey<PlacedFeature> MAKRUT_TREE =
+            ResourceKey.create(Registries.PLACED_FEATURE,
+                    Identifier.fromNamespaceAndPath(SiamDelights.MOD_ID, "makrut_tree"));
+
+    public static final ResourceKey<PlacedFeature> THAI_BASIL_PLANT =
+            ResourceKey.create(Registries.PLACED_FEATURE,
+                    Identifier.fromNamespaceAndPath(SiamDelights.MOD_ID, "thai_basil_plant"));
+
+    public static final ResourceKey<PlacedFeature> GALANGAL_CROP =
+            ResourceKey.create(Registries.PLACED_FEATURE,
+                    Identifier.fromNamespaceAndPath(SiamDelights.MOD_ID, "galangal_crop"));
+
+    public static final ResourceKey<PlacedFeature> LEMONGRASS_PLANT =
+            ResourceKey.create(Registries.PLACED_FEATURE,
+                    Identifier.fromNamespaceAndPath(SiamDelights.MOD_ID, "lemongrass_plant"));
 }

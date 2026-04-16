@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lemongrass_plant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": ["siam_delights:lemongrass_plant"] } ] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "siam_delights:lemongrass_from_plant" }
+    }
+  },
+  "requirements": [ ["has_the_recipe", "has_lemongrass_plant"] ],
+  "rewards": { "recipes": ["siam_delights:lemongrass_from_plant"] }
+}

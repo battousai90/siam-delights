@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "siam_delights:block/makrut_sapling"
+  }
+}

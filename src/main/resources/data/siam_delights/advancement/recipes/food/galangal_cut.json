@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_galangal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": ["siam_delights:galangal"] } ] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "siam_delights:galangal_cut" }
+    }
+  },
+  "requirements": [ ["has_the_recipe", "has_galangal"] ],
+  "rewards": { "recipes": ["siam_delights:galangal_cut"] }
+}

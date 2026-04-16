@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "siam_delights:block/thai_basil_plant"
+  }
+}

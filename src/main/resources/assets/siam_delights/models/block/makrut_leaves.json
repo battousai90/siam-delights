@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "siam_delights:block/makrut_leaves"
+  }
+}
