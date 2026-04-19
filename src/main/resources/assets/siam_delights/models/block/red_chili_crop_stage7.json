@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/crop", "textures": { "crop": "siam_delights:block/red_chili_crop_stage7" } }

@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": { "crop": "siam_delights:block/ginger_crop_stage2" }
+}

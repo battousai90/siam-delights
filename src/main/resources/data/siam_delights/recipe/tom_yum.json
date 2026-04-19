@@ -4,8 +4,13 @@
     "id": "minecraft:bowl"
   },
   "experience": 1.5,
+  "cooking_time": 400,
   "ingredients": [
-    "minecraft:salmon",
+    "minecraft:cod",
+    "minecraft:brown_mushroom",
+    "siam_delights:sliced_lemongrass",
+    "siam_delights:sliced_galangal",
+    "siam_delights:makrut_leaf",
     "siam_delights:coconut_milk"
   ],
   "recipe_book_tab": "meals",

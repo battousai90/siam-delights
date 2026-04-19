@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "siam_delights:ginger",
+    "siam_delights:sliced_lemongrass",
+    "siam_delights:garlic",
+    "siam_delights:red_chili",
+    "siam_delights:shallot",
+    "siam_delights:coriander"
+  ],
+  "result": {
+    "id": "siam_delights:yellow_curry_paste",
+    "count": 2
+  }
+}

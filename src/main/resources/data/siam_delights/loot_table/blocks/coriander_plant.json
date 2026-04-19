@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1, "bonus_rolls": 0.0,
+      "entries": [{
+        "type": "minecraft:item",
+        "name": "siam_delights:coriander",
+        "conditions": [{ "condition": "minecraft:survives_explosion" }],
+        "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+      }]
+    },
+    {
+      "rolls": 1, "bonus_rolls": 0.0,
+      "entries": [{
+        "type": "minecraft:item",
+        "name": "siam_delights:coriander_seeds",
+        "conditions": [{ "condition": "minecraft:survives_explosion" }]
+      }],
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }]
+    }
+  ]
+}

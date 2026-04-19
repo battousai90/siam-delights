@@ -46,11 +46,47 @@ public class ModItems {
     public static final SiamFoodItem SLICED_GALANGAL = register("sliced_galangal",
             props -> new SiamFoodItem(props.food(ModFoods.SLICED_GALANGAL)));
 
+    public static final SiamFoodItem SLICED_LEMONGRASS = register("sliced_lemongrass",
+            props -> new SiamFoodItem(props.food(ModFoods.SLICED_LEMONGRASS)));
+
     public static final Item MAKRUT_JUICE = register("makrut_juice",
             props -> new Item(props));
 
     public static final SiamFoodItem THAI_BASIL = register("thai_basil",
             props -> new SiamFoodItem(props.food(ModFoods.THAI_BASIL)));
+
+    public static final SiamFoodItem GINGER = register("ginger",
+            props -> new SiamFoodItem(props.food(ModFoods.GINGER)));
+
+    public static final SiamFoodItem CORIANDER = register("coriander",
+            props -> new SiamFoodItem(props.food(ModFoods.CORIANDER)));
+
+    public static final Item CORIANDER_SEEDS = register("coriander_seeds",
+            props -> new Item(props));
+
+    public static final SiamFoodItem RED_CHILI = register("red_chili",
+            props -> new SiamFoodItem(props.food(ModFoods.RED_CHILI)));
+
+    public static final SiamFoodItem GREEN_CHILI = register("green_chili",
+            props -> new SiamFoodItem(props.food(ModFoods.GREEN_CHILI)));
+
+    public static final SiamFoodItem GARLIC = register("garlic",
+            props -> new SiamFoodItem(props.food(ModFoods.GARLIC)));
+
+    public static final SiamFoodItem SHALLOT = register("shallot",
+            props -> new SiamFoodItem(props.food(ModFoods.SHALLOT)));
+
+    public static final SiamFoodItem THAI_EGGPLANT = register("thai_eggplant",
+            props -> new SiamFoodItem(props.food(ModFoods.THAI_EGGPLANT)));
+
+    public static final Item GREEN_CURRY_PASTE = register("green_curry_paste",
+            props -> new Item(props));
+
+    public static final Item RED_CURRY_PASTE = register("red_curry_paste",
+            props -> new Item(props));
+
+    public static final Item YELLOW_CURRY_PASTE = register("yellow_curry_paste",
+            props -> new Item(props));
 
     // ─── TRANSFORMED ────────────────────────────────────────────────────────
 
@@ -116,6 +152,27 @@ public class ModItems {
     public static final BlockItem LEMONGRASS_PLANT = register("lemongrass_plant",
             props -> new BlockItem(ModBlocks.LEMONGRASS_PLANT, props));
 
+    public static final BlockItem CORIANDER_PLANT = register("coriander_plant",
+            props -> new BlockItem(ModBlocks.CORIANDER_PLANT, props));
+
+    public static final BlockItem GINGER_CROP = register("ginger_crop",
+            props -> new BlockItem(ModBlocks.GINGER_CROP, props));
+
+    public static final BlockItem RED_CHILI_SEEDS = register("red_chili_seeds",
+            props -> new BlockItem(ModBlocks.RED_CHILI_CROP, props));
+
+    public static final BlockItem GREEN_CHILI_SEEDS = register("green_chili_seeds",
+            props -> new BlockItem(ModBlocks.GREEN_CHILI_CROP, props));
+
+    public static final BlockItem THAI_EGGPLANT_SEEDS = register("thai_eggplant_seeds",
+            props -> new BlockItem(ModBlocks.THAI_EGGPLANT_CROP, props));
+
+    public static final BlockItem GARLIC_CROP = register("garlic_crop",
+            props -> new BlockItem(ModBlocks.GARLIC_CROP, props));
+
+    public static final BlockItem SHALLOT_CROP = register("shallot_crop",
+            props -> new BlockItem(ModBlocks.SHALLOT_CROP, props));
+
     // ─── Helpers ────────────────────────────────────────────────────────────
 
     private static <T extends Item> T register(String name, Function<Item.Properties, T> factory) {
@@ -136,8 +193,20 @@ public class ModItems {
             output.accept(MAKRUT_LEAF);
             output.accept(MAKRUT);
             output.accept(SLICED_GALANGAL);
+            output.accept(SLICED_LEMONGRASS);
             output.accept(MAKRUT_JUICE);
             output.accept(THAI_BASIL);
+            output.accept(GINGER);
+            output.accept(CORIANDER);
+            output.accept(CORIANDER_SEEDS);
+            output.accept(RED_CHILI);
+            output.accept(GREEN_CHILI);
+            output.accept(GARLIC);
+            output.accept(SHALLOT);
+            output.accept(THAI_EGGPLANT);
+            output.accept(GREEN_CURRY_PASTE);
+            output.accept(RED_CURRY_PASTE);
+            output.accept(YELLOW_CURRY_PASTE);
             // Transformed
             output.accept(COCONUT_MEAT);
             output.accept(COCONUT_MILK);
@@ -160,6 +229,13 @@ public class ModItems {
             output.accept(MAKRUT_SAPLING);
             output.accept(THAI_BASIL_PLANT);
             output.accept(LEMONGRASS_PLANT);
+            output.accept(CORIANDER_PLANT);
+            output.accept(GINGER_CROP);
+            output.accept(RED_CHILI_SEEDS);
+            output.accept(GREEN_CHILI_SEEDS);
+            output.accept(THAI_EGGPLANT_SEEDS);
+            output.accept(GARLIC_CROP);
+            output.accept(SHALLOT_CROP);
         });
     }
 }

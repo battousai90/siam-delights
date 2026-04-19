@@ -1,12 +1,19 @@
 package net.battousai90.siamdelights.registry;
 
 import net.battousai90.siamdelights.SiamDelights;
+import net.battousai90.siamdelights.block.ChiliCropBlock;
+import net.battousai90.siamdelights.block.GreenChiliCropBlock;
 import net.battousai90.siamdelights.block.CoconutLeavesBlock;
+import net.battousai90.siamdelights.block.CorianderPlantBlock;
 import net.battousai90.siamdelights.block.GalangalCropBlock;
+import net.battousai90.siamdelights.block.GarlicCropBlock;
+import net.battousai90.siamdelights.block.GingerCropBlock;
 import net.battousai90.siamdelights.block.LemongrassPlantBlock;
 import net.battousai90.siamdelights.block.MakrutLeavesBlock;
 import net.battousai90.siamdelights.block.MangoLeavesBlock;
+import net.battousai90.siamdelights.block.ShallotCropBlock;
 import net.battousai90.siamdelights.block.ThaiBasilPlantBlock;
+import net.battousai90.siamdelights.block.ThaiEggplantCropBlock;
 import net.battousai90.siamdelights.worldgen.ModConfiguredFeatures;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -143,6 +150,89 @@ public class ModBlocks {
                     .instabreak()
                     .noCollision()
                     .sound(SoundType.GRASS)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Coriander Plant ────────────────────────────────────────────────────
+
+    public static final CorianderPlantBlock CORIANDER_PLANT = register("coriander_plant",
+            props -> new CorianderPlantBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .sound(SoundType.GRASS)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Ginger Crop ────────────────────────────────────────────────────────
+
+    public static final GingerCropBlock GINGER_CROP = register("ginger_crop",
+            props -> new GingerCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Red Chili Crop ──────────────────────────────────────────────────────
+
+    public static final ChiliCropBlock RED_CHILI_CROP = register("red_chili_crop",
+            props -> new ChiliCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Green Chili Crop ────────────────────────────────────────────────────
+
+    public static final GreenChiliCropBlock GREEN_CHILI_CROP = register("green_chili_crop",
+            props -> new GreenChiliCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Thai Eggplant Crop ─────────────────────────────────────────────────
+
+    public static final ThaiEggplantCropBlock THAI_EGGPLANT_CROP = register("thai_eggplant_crop",
+            props -> new ThaiEggplantCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Garlic Crop ────────────────────────────────────────────────────────
+
+    public static final GarlicCropBlock GARLIC_CROP = register("garlic_crop",
+            props -> new GarlicCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY));
+
+    // ─── Shallot Crop ───────────────────────────────────────────────────────
+
+    public static final ShallotCropBlock SHALLOT_CROP = register("shallot_crop",
+            props -> new ShallotCropBlock(props),
+            BlockBehaviour.Properties.of()
+                    .instabreak()
+                    .noCollision()
+                    .randomTicks()
+                    .sound(SoundType.CROP)
                     .noOcclusion()
                     .pushReaction(PushReaction.DESTROY));
 

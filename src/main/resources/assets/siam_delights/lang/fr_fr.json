@@ -25,6 +25,7 @@
   "item.siam_delights.lemongrass": "Citronnelle",
   "item.siam_delights.galangal": "Galanga",
   "item.siam_delights.sliced_galangal": "Galanga tranché",
+  "item.siam_delights.sliced_lemongrass": "Citronnelle tranchée",
   "item.siam_delights.makrut_leaf": "Feuille de combava",
   "item.siam_delights.makrut": "Combava",
   "item.siam_delights.makrut_juice": "Jus de combava",
@@ -42,5 +43,33 @@
 
   "block.siam_delights.galangal_crop": "Galanga",
   "block.siam_delights.lemongrass_plant": "Plant de citronnelle",
-  "item.siam_delights.lemongrass_plant": "Plant de citronnelle"
+  "item.siam_delights.lemongrass_plant": "Plant de citronnelle",
+
+  "item.siam_delights.ginger": "Gingembre",
+  "item.siam_delights.coriander": "Coriandre",
+  "item.siam_delights.coriander_seeds": "Graines de coriandre",
+  "item.siam_delights.red_chili": "Piment rouge",
+  "item.siam_delights.green_chili": "Piment vert",
+  "item.siam_delights.garlic": "Ail",
+  "item.siam_delights.shallot": "Échalote",
+  "item.siam_delights.thai_eggplant": "Aubergine thaï",
+  "item.siam_delights.green_curry_paste": "Pâte de curry vert",
+  "item.siam_delights.red_curry_paste": "Pâte de curry rouge",
+  "item.siam_delights.yellow_curry_paste": "Pâte de curry jaune",
+
+  "item.siam_delights.coriander_plant": "Plant de coriandre",
+  "item.siam_delights.ginger_crop": "Gingembre",
+  "item.siam_delights.red_chili_seeds": "Graines de piment rouge",
+  "item.siam_delights.green_chili_seeds": "Graines de piment vert",
+  "item.siam_delights.thai_eggplant_seeds": "Graines d'aubergine thaï",
+  "item.siam_delights.garlic_crop": "Ail",
+  "item.siam_delights.shallot_crop": "Échalote",
+
+  "block.siam_delights.coriander_plant": "Plant de coriandre",
+  "block.siam_delights.ginger_crop": "Gingembre",
+  "block.siam_delights.red_chili_crop": "Piment rouge",
+  "block.siam_delights.green_chili_crop": "Piment vert",
+  "block.siam_delights.thai_eggplant_crop": "Aubergine thaï",
+  "block.siam_delights.garlic_crop": "Ail",
+  "block.siam_delights.shallot_crop": "Échalote"
 }

@@ -29,6 +29,9 @@ public class GalangalCropBlock extends CropBlock {
     }
 
     // Allow planting on farmland AND on dirt/grass (for natural world spawn)
+    
+    public int getMaxAge() { return 3; }
+
     @Override
     protected boolean mayPlaceOn(BlockState state, BlockGetter level, BlockPos pos) {
         return super.mayPlaceOn(state, level, pos)

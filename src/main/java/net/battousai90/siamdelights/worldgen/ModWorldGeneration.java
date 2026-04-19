@@ -43,5 +43,40 @@ public class ModWorldGeneration {
                 GenerationStep.Decoration.VEGETAL_DECORATION,
                 ModPlacedFeatures.LEMONGRASS_PLANT
         );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.CORIANDER_PLANT
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.GINGER_CROP
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.RED_CHILI_CROP
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.GREEN_CHILI_CROP
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.THAI_EGGPLANT_CROP
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.GARLIC_CROP
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.SHALLOT_CROP
+        );
     }
 }

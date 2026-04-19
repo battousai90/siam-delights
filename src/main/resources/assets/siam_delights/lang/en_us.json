@@ -25,6 +25,7 @@
   "item.siam_delights.lemongrass": "Lemongrass",
   "item.siam_delights.galangal": "Galangal",
   "item.siam_delights.sliced_galangal": "Sliced Galangal",
+  "item.siam_delights.sliced_lemongrass": "Sliced Lemongrass",
   "item.siam_delights.makrut_leaf": "Makrut Lime Leaf",
   "item.siam_delights.makrut": "Makrut Lime",
   "item.siam_delights.makrut_juice": "Makrut Juice",
@@ -42,5 +43,33 @@
 
   "block.siam_delights.galangal_crop": "Galangal",
   "block.siam_delights.lemongrass_plant": "Lemongrass Plant",
-  "item.siam_delights.lemongrass_plant": "Lemongrass Plant"
+  "item.siam_delights.lemongrass_plant": "Lemongrass Plant",
+
+  "item.siam_delights.ginger": "Ginger",
+  "item.siam_delights.coriander": "Coriander",
+  "item.siam_delights.coriander_seeds": "Coriander Seeds",
+  "item.siam_delights.red_chili": "Red Chili",
+  "item.siam_delights.green_chili": "Green Chili",
+  "item.siam_delights.garlic": "Garlic",
+  "item.siam_delights.shallot": "Shallot",
+  "item.siam_delights.thai_eggplant": "Thai Eggplant",
+  "item.siam_delights.green_curry_paste": "Green Curry Paste",
+  "item.siam_delights.red_curry_paste": "Red Curry Paste",
+  "item.siam_delights.yellow_curry_paste": "Yellow Curry Paste",
+
+  "item.siam_delights.coriander_plant": "Coriander Plant",
+  "item.siam_delights.ginger_crop": "Ginger",
+  "item.siam_delights.red_chili_seeds": "Red Chili Seeds",
+  "item.siam_delights.green_chili_seeds": "Green Chili Seeds",
+  "item.siam_delights.thai_eggplant_seeds": "Thai Eggplant Seeds",
+  "item.siam_delights.garlic_crop": "Garlic",
+  "item.siam_delights.shallot_crop": "Shallot",
+
+  "block.siam_delights.coriander_plant": "Coriander Plant",
+  "block.siam_delights.ginger_crop": "Ginger",
+  "block.siam_delights.red_chili_crop": "Red Chili",
+  "block.siam_delights.green_chili_crop": "Green Chili",
+  "block.siam_delights.thai_eggplant_crop": "Thai Eggplant",
+  "block.siam_delights.garlic_crop": "Garlic",
+  "block.siam_delights.shallot_crop": "Shallot"
 }

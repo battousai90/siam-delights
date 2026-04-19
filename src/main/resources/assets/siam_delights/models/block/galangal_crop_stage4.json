@@ -1,4 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": { "crop": "siam_delights:block/galangal_crop_stage4" }
-}

@@ -188,7 +188,7 @@ Le mod Siam Delights ajoute la cuisine thaïlandaise à Minecraft via Farmer's D
 **→ Tester lemongrass drop, makrut tree**
 
 ### Phase 3 — Chili & curry chain
-**Items :** `thai_chili`, `garlic`, `shallot`, `thai_eggplant`, `red_curry_paste`, `green_curry_paste`
+**Items :** `thai_chili`, `garlic`, `shallot`, `thai_eggplant`, `red_curry_paste`, `green_curry_paste`, `yellow_curry_paste`
 **Blocs :** `chili_bush`, `garlic_bush`, `shallot_crop`, `galangal_crop`, `thai_eggplant_crop`
 **Recettes :** curry pastes en Cooking Pot
 **Worldgen :** buissons en jungle/savanna
