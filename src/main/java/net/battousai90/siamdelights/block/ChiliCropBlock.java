@@ -1,6 +1,5 @@
 package net.battousai90.siamdelights.block;
 
-import com.mojang.serialization.MapCodec;
 import net.battousai90.siamdelights.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
@@ -19,15 +18,8 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class ChiliCropBlock extends CropBlock {
 
-    public static final MapCodec<ChiliCropBlock> CODEC = simpleCodec(ChiliCropBlock::new);
-
     public ChiliCropBlock(BlockBehaviour.Properties properties) {
         super(properties);
-    }
-
-    @Override
-    public MapCodec<? extends CropBlock> codec() {
-        return CODEC;
     }
 
     @Override

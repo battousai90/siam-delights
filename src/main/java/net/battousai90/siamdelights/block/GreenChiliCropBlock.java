@@ -1,6 +1,5 @@
 package net.battousai90.siamdelights.block;
 
-import com.mojang.serialization.MapCodec;
 import net.battousai90.siamdelights.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -19,15 +18,8 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class GreenChiliCropBlock extends CropBlock {
 
-    public static final MapCodec<GreenChiliCropBlock> CODEC = simpleCodec(GreenChiliCropBlock::new);
-
     public GreenChiliCropBlock(BlockBehaviour.Properties properties) {
         super(properties);
-    }
-
-    @Override
-    public MapCodec<? extends CropBlock> codec() {
-        return CODEC;
     }
 
     @Override

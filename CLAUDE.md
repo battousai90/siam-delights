@@ -21,9 +21,9 @@ Siam Delights is a Minecraft mod for Fabric that adds Thai cuisine and tropical 
 
 ## Stack
 
-- Minecraft 26.1 + Fabric
-- Farmer's Delight Refabricated 3.5.2
-- Java 21
+- Minecraft 26.3 + Fabric (Loader 0.20.1, Fabric API 0.166.0+26.3)
+- Farmer's Delight Refabricated 3.6.30 (26.3)
+- Java 25
 - Gradle
 
 ## Build Commands

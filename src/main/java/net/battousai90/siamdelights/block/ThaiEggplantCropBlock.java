@@ -1,6 +1,5 @@
 package net.battousai90.siamdelights.block;
 
-import com.mojang.serialization.MapCodec;
 import net.battousai90.siamdelights.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -19,15 +18,8 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class ThaiEggplantCropBlock extends CropBlock {
 
-    public static final MapCodec<ThaiEggplantCropBlock> CODEC = simpleCodec(ThaiEggplantCropBlock::new);
-
     public ThaiEggplantCropBlock(BlockBehaviour.Properties properties) {
         super(properties);
-    }
-
-    @Override
-    public MapCodec<? extends CropBlock> codec() {
-        return CODEC;
     }
 
     @Override

@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "siam_delights:sticky_rice"
+        "recipes": "siam_delights:sticky_rice"
       }
     }
   },

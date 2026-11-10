@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["siam_delights:coconut"]
+            "items": [
+              "siam_delights:coconut"
+            ]
           }
         ]
       }
@@ -14,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "siam_delights:coconut_to_meat"
+        "recipes": "siam_delights:coconut_to_meat"
       }
     }
   },

@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["siam_delights:coconut_meat"]
+            "items": [
+              "siam_delights:coconut_meat"
+            ]
           }
         ]
       }
@@ -14,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "siam_delights:coconut_milk"
+        "recipes": "siam_delights:coconut_milk"
       }
     }
   },

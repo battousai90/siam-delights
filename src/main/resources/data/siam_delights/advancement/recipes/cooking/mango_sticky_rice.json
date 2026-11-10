@@ -18,7 +18,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "siam_delights:mango_sticky_rice"
+        "recipes": "siam_delights:mango_sticky_rice"
       }
     }
   },

@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["siam_delights:mango"]
+            "items": [
+              "siam_delights:mango"
+            ]
           }
         ]
       }
@@ -14,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "siam_delights:mango_to_sliced"
+        "recipes": "siam_delights:mango_to_sliced"
       }
     }
   },

@@ -17,7 +17,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "siam_delights:tom_yum"
+        "recipes": "siam_delights:tom_yum"
       }
     }
   },

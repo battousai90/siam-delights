@@ -28,9 +28,9 @@ import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.util.random.WeightedList;
 import net.minecraft.world.level.material.PushReaction;
 
-import java.util.Optional;
 import java.util.function.Function;
 
 public class ModBlocks {
@@ -51,7 +51,7 @@ public class ModBlocks {
                 .sound(SoundType.GRASS)
                 .noOcclusion()
                 .ignitedByLava()
-                .pushReaction(PushReaction.DESTROY);
+                .pushReaction(PushReaction.POPPED);
     }
 
     // ─── Sapling properties ───────────────────────────────────────────────────
@@ -62,23 +62,25 @@ public class ModBlocks {
                 .randomTicks()
                 .sound(SoundType.GRASS)
                 .noOcclusion()
-                .pushReaction(PushReaction.DESTROY);
+                .pushReaction(PushReaction.POPPED);
     }
 
     // ─── Tree Growers ────────────────────────────────────────────────────────
 
     public static final TreeGrower COCONUT_TREE_GROWER = new TreeGrower(
             "coconut",
-            Optional.empty(),
-            Optional.of(ModConfiguredFeatures.COCONUT_TREE),
-            Optional.empty()
+            WeightedList.of(ModConfiguredFeatures.COCONUT_TREE),
+            WeightedList.of(),
+            WeightedList.of(),
+            ModConfiguredFeatures.COCONUT_TREE
     );
 
     public static final TreeGrower MANGO_TREE_GROWER = new TreeGrower(
             "mango",
-            Optional.empty(),
-            Optional.of(ModConfiguredFeatures.MANGO_TREE),
-            Optional.empty()
+            WeightedList.of(ModConfiguredFeatures.MANGO_TREE),
+            WeightedList.of(),
+            WeightedList.of(),
+            ModConfiguredFeatures.MANGO_TREE
     );
 
     // ─── Coconut Tree ────────────────────────────────────────────────────────
@@ -107,9 +109,10 @@ public class ModBlocks {
 
     public static final TreeGrower MAKRUT_TREE_GROWER = new TreeGrower(
             "makrut",
-            Optional.empty(),
-            Optional.of(ModConfiguredFeatures.MAKRUT_TREE),
-            Optional.empty()
+            WeightedList.of(ModConfiguredFeatures.MAKRUT_TREE),
+            WeightedList.of(),
+            WeightedList.of(),
+            ModConfiguredFeatures.MAKRUT_TREE
     );
 
     public static final RotatedPillarBlock MAKRUT_LOG = register("makrut_log",
@@ -125,9 +128,10 @@ public class ModBlocks {
 
     public static final TreeGrower BANANA_TREE_GROWER = new TreeGrower(
             "banana",
-            Optional.empty(),
-            Optional.of(ModConfiguredFeatures.BANANA_TREE),
-            Optional.empty()
+            WeightedList.of(ModConfiguredFeatures.BANANA_TREE),
+            WeightedList.of(),
+            WeightedList.of(),
+            ModConfiguredFeatures.BANANA_TREE
     );
 
     public static final RotatedPillarBlock BANANA_LOG = register("banana_log",
@@ -143,9 +147,10 @@ public class ModBlocks {
 
     public static final TreeGrower PAPAYA_TREE_GROWER = new TreeGrower(
             "papaya",
-            Optional.empty(),
-            Optional.of(ModConfiguredFeatures.PAPAYA_TREE),
-            Optional.empty()
+            WeightedList.of(ModConfiguredFeatures.PAPAYA_TREE),
+            WeightedList.of(),
+            WeightedList.of(),
+            ModConfiguredFeatures.PAPAYA_TREE
     );
 
     public static final RotatedPillarBlock PAPAYA_LOG = register("papaya_log",
@@ -167,7 +172,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Lemongrass Plant ────────────────────────────────────────────────────
 
@@ -178,7 +183,7 @@ public class ModBlocks {
                     .noCollision()
                     .sound(SoundType.GRASS)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Thai Basil Plant ────────────────────────────────────────────────────
 
@@ -189,7 +194,7 @@ public class ModBlocks {
                     .noCollision()
                     .sound(SoundType.GRASS)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Coriander Plant ────────────────────────────────────────────────────
 
@@ -200,7 +205,7 @@ public class ModBlocks {
                     .noCollision()
                     .sound(SoundType.GRASS)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Ginger Crop ────────────────────────────────────────────────────────
 
@@ -212,7 +217,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Red Chili Crop ──────────────────────────────────────────────────────
 
@@ -224,7 +229,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Green Chili Crop ────────────────────────────────────────────────────
 
@@ -236,7 +241,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Thai Eggplant Crop ─────────────────────────────────────────────────
 
@@ -248,7 +253,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Garlic Crop ────────────────────────────────────────────────────────
 
@@ -260,7 +265,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Shallot Crop ───────────────────────────────────────────────────────
 
@@ -272,7 +277,7 @@ public class ModBlocks {
                     .randomTicks()
                     .sound(SoundType.CROP)
                     .noOcclusion()
-                    .pushReaction(PushReaction.DESTROY));
+                    .pushReaction(PushReaction.POPPED));
 
     // ─── Helpers ─────────────────────────────────────────────────────────────
 
