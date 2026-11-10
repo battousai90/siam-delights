@@ -79,6 +79,21 @@ public class ModItems {
     public static final SiamFoodItem THAI_EGGPLANT = register("thai_eggplant",
             props -> new SiamFoodItem(props.food(ModFoods.THAI_EGGPLANT)));
 
+    public static final SiamFoodItem BANANA = register("banana",
+            props -> new SiamFoodItem(props.food(ModFoods.BANANA)));
+
+    public static final SiamFoodItem PAPAYA = register("papaya",
+            props -> new SiamFoodItem(props.food(ModFoods.PAPAYA)));
+
+    public static final SiamFoodItem SHREDDED_PAPAYA = register("shredded_papaya",
+            props -> new SiamFoodItem(props.food(ModFoods.SHREDDED_PAPAYA)));
+
+    public static final SiamFoodItem DRIED_FISH = register("dried_fish",
+            props -> new SiamFoodItem(props.food(ModFoods.DRIED_FISH)));
+
+    public static final Item FISH_SAUCE = register("fish_sauce",
+            props -> new Item(props));
+
     public static final Item GREEN_CURRY_PASTE = register("green_curry_paste",
             props -> new Item(props));
 
@@ -114,6 +129,61 @@ public class ModItems {
                     props.food(ModFoods.TOM_YUM, ModFoods.TOM_YUM_CONSUMABLE),
                     "item.siam_delights.tom_yum.tooltip"));
 
+    public static final SiamFoodItem GREEN_CURRY = register("green_curry",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.GREEN_CURRY, ModFoods.GREEN_CURRY_CONSUMABLE),
+                    "item.siam_delights.green_curry.tooltip"));
+
+    public static final SiamFoodItem SOM_TAM = register("som_tam",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.SOM_TAM),
+                    "item.siam_delights.som_tam.tooltip"));
+
+    public static final SiamFoodItem PAD_THAI = register("pad_thai",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.PAD_THAI, ModFoods.PAD_THAI_CONSUMABLE),
+                    "item.siam_delights.pad_thai.tooltip"));
+
+    public static final SiamFoodItem TOM_KHA_GAI = register("tom_kha_gai",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.TOM_KHA_GAI, ModFoods.TOM_KHA_GAI_CONSUMABLE),
+                    "item.siam_delights.tom_kha_gai.tooltip"));
+
+    public static final SiamFoodItem KRAPAO_MOO = register("krapao_moo",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.KRAPAO_MOO, ModFoods.KRAPAO_MOO_CONSUMABLE),
+                    "item.siam_delights.krapao_moo.tooltip"));
+
+    public static final SiamFoodItem TOM_SEP_MOO = register("tom_sep_moo",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.TOM_SEP_MOO, ModFoods.TOM_SEP_MOO_CONSUMABLE),
+                    "item.siam_delights.tom_sep_moo.tooltip"));
+
+    public static final SiamFoodItem KHAO_MAN_GAI = register("khao_man_gai",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.KHAO_MAN_GAI),
+                    "item.siam_delights.khao_man_gai.tooltip"));
+
+    public static final SiamFoodItem LARB_MOO = register("larb_moo",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.LARB_MOO, ModFoods.LARB_MOO_CONSUMABLE),
+                    "item.siam_delights.larb_moo.tooltip"));
+
+    public static final SiamFoodItem RED_CURRY = register("red_curry",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.RED_CURRY, ModFoods.RED_CURRY_CONSUMABLE),
+                    "item.siam_delights.red_curry.tooltip"));
+
+    public static final SiamFoodItem MASSAMAN_CURRY = register("massaman_curry",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.MASSAMAN_CURRY, ModFoods.MASSAMAN_CURRY_CONSUMABLE),
+                    "item.siam_delights.massaman_curry.tooltip"));
+
+    public static final SiamFoodItem YAM_MAMUANG = register("yam_mamuang",
+            props -> new SiamFoodItem(
+                    props.food(ModFoods.YAM_MAMUANG, ModFoods.YAM_MAMUANG_CONSUMABLE),
+                    "item.siam_delights.yam_mamuang.tooltip"));
+
     // ─── BLOCK ITEMS ────────────────────────────────────────────────────────
 
     public static final BlockItem COCONUT_LOG = register("coconut_log",
@@ -133,6 +203,24 @@ public class ModItems {
 
     public static final BlockItem MANGO_SAPLING = register("mango_sapling",
             props -> new BlockItem(ModBlocks.MANGO_SAPLING, props));
+
+    public static final BlockItem BANANA_LOG = register("banana_log",
+            props -> new BlockItem(ModBlocks.BANANA_LOG, props));
+
+    public static final BlockItem BANANA_LEAVES = register("banana_leaves",
+            props -> new BlockItem(ModBlocks.BANANA_LEAVES, props));
+
+    public static final BlockItem BANANA_SAPLING = register("banana_sapling",
+            props -> new BlockItem(ModBlocks.BANANA_SAPLING, props));
+
+    public static final BlockItem PAPAYA_LOG = register("papaya_log",
+            props -> new BlockItem(ModBlocks.PAPAYA_LOG, props));
+
+    public static final BlockItem PAPAYA_LEAVES = register("papaya_leaves",
+            props -> new BlockItem(ModBlocks.PAPAYA_LEAVES, props));
+
+    public static final BlockItem PAPAYA_SAPLING = register("papaya_sapling",
+            props -> new BlockItem(ModBlocks.PAPAYA_SAPLING, props));
 
     public static final BlockItem MAKRUT_LOG = register("makrut_log",
             props -> new BlockItem(ModBlocks.MAKRUT_LOG, props));
@@ -187,6 +275,8 @@ public class ModItems {
             // Raw
             output.accept(MANGO);
             output.accept(COCONUT);
+            output.accept(BANANA);
+            output.accept(PAPAYA);
             // Herbs & Aromatics
             output.accept(LEMONGRASS);
             output.accept(GALANGAL);
@@ -204,6 +294,9 @@ public class ModItems {
             output.accept(GARLIC);
             output.accept(SHALLOT);
             output.accept(THAI_EGGPLANT);
+            output.accept(SHREDDED_PAPAYA);
+            output.accept(DRIED_FISH);
+            output.accept(FISH_SAUCE);
             output.accept(GREEN_CURRY_PASTE);
             output.accept(RED_CURRY_PASTE);
             output.accept(YELLOW_CURRY_PASTE);
@@ -215,11 +308,28 @@ public class ModItems {
             // Dishes
             output.accept(MANGO_STICKY_RICE);
             output.accept(TOM_YUM);
+            output.accept(GREEN_CURRY);
+            output.accept(SOM_TAM);
+            output.accept(PAD_THAI);
+            output.accept(TOM_KHA_GAI);
+            output.accept(KRAPAO_MOO);
+            output.accept(TOM_SEP_MOO);
+            output.accept(KHAO_MAN_GAI);
+            output.accept(LARB_MOO);
+            output.accept(RED_CURRY);
+            output.accept(MASSAMAN_CURRY);
+            output.accept(YAM_MAMUANG);
             // Blocks — Coconut
             output.accept(COCONUT_LOG);
             output.accept(COCONUT_LEAVES);
             output.accept(COCONUT_SAPLING);
             // Blocks — Mango
+            output.accept(BANANA_LOG);
+            output.accept(BANANA_LEAVES);
+            output.accept(BANANA_SAPLING);
+            output.accept(PAPAYA_LOG);
+            output.accept(PAPAYA_LEAVES);
+            output.accept(PAPAYA_SAPLING);
             output.accept(MANGO_LOG);
             output.accept(MANGO_LEAVES);
             output.accept(MANGO_SAPLING);

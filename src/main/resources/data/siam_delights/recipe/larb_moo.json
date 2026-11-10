@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": { "id": "minecraft:bowl" },
+  "experience": 1.0,
+  "cooking_time": 200,
+  "ingredients": [
+    "minecraft:porkchop",
+    "siam_delights:coriander",
+    "siam_delights:shallot",
+    "siam_delights:red_chili",
+    "siam_delights:fish_sauce"
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "siam_delights:larb_moo" }
+}

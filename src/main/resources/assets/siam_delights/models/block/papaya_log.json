@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/cube_column", "textures": { "end": "siam_delights:block/papaya_log_top", "side": "siam_delights:block/papaya_log" } }

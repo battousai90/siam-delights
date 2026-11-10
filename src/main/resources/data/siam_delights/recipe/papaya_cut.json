@@ -1,0 +1,9 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [ "siam_delights:papaya" ],
+  "result": [
+    { "item": { "count": 2, "id": "siam_delights:shredded_papaya" } }
+  ],
+  "tool": "#c:tools/knife",
+  "sound": "minecraft:block.wood.break"
+}

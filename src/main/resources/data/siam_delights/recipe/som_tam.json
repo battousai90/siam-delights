@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": { "id": "minecraft:bowl" },
+  "experience": 1.0,
+  "cooking_time": 200,
+  "ingredients": [
+    "siam_delights:shredded_papaya",
+    "siam_delights:fish_sauce",
+    "siam_delights:red_chili",
+    "siam_delights:makrut_juice"
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "siam_delights:som_tam" }
+}

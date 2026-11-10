@@ -1,0 +1,12 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.5,
+  "cooking_time": 200,
+  "ingredients": [
+    "siam_delights:dried_fish",
+    "siam_delights:dried_fish",
+    "minecraft:water_bucket"
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "siam_delights:fish_sauce" }
+}

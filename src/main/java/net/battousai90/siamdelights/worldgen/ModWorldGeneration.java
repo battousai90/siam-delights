@@ -78,5 +78,15 @@ public class ModWorldGeneration {
                 GenerationStep.Decoration.VEGETAL_DECORATION,
                 ModPlacedFeatures.SHALLOT_CROP
         );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.BANANA_TREE
+        );
+        BiomeModifications.addFeature(
+                BiomeSelectors.tag(BiomeTags.IS_JUNGLE),
+                GenerationStep.Decoration.VEGETAL_DECORATION,
+                ModPlacedFeatures.PAPAYA_TREE
+        );
     }
 }

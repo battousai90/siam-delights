@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": { "id": "minecraft:bowl" },
+  "experience": 1.0,
+  "cooking_time": 400,
+  "ingredients": [
+    "minecraft:chicken",
+    "#c:crops/rice",
+    "siam_delights:garlic",
+    "siam_delights:ginger",
+    "siam_delights:makrut_leaf"
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "siam_delights:khao_man_gai" }
+}

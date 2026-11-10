@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": { "id": "minecraft:bowl" },
+  "experience": 0.8,
+  "cooking_time": 200,
+  "ingredients": [
+    "siam_delights:mango",
+    "siam_delights:shallot",
+    "siam_delights:red_chili",
+    "siam_delights:fish_sauce"
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "siam_delights:yam_mamuang" }
+}

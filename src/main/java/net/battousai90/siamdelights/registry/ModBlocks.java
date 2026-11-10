@@ -1,9 +1,11 @@
 package net.battousai90.siamdelights.registry;
 
 import net.battousai90.siamdelights.SiamDelights;
+import net.battousai90.siamdelights.block.BananaLeavesBlock;
 import net.battousai90.siamdelights.block.ChiliCropBlock;
 import net.battousai90.siamdelights.block.GreenChiliCropBlock;
 import net.battousai90.siamdelights.block.CoconutLeavesBlock;
+import net.battousai90.siamdelights.block.PapayaLeavesBlock;
 import net.battousai90.siamdelights.block.CorianderPlantBlock;
 import net.battousai90.siamdelights.block.GalangalCropBlock;
 import net.battousai90.siamdelights.block.GarlicCropBlock;
@@ -118,6 +120,42 @@ public class ModBlocks {
 
     public static final SaplingBlock MAKRUT_SAPLING = register("makrut_sapling",
             props -> new SaplingBlock(MAKRUT_TREE_GROWER, props), saplingProps());
+
+    // ─── Banana Tree ─────────────────────────────────────────────────────────
+
+    public static final TreeGrower BANANA_TREE_GROWER = new TreeGrower(
+            "banana",
+            Optional.empty(),
+            Optional.of(ModConfiguredFeatures.BANANA_TREE),
+            Optional.empty()
+    );
+
+    public static final RotatedPillarBlock BANANA_LOG = register("banana_log",
+            props -> new RotatedPillarBlock(props), logProps());
+
+    public static final BananaLeavesBlock BANANA_LEAVES = register("banana_leaves",
+            props -> new BananaLeavesBlock(props), leavesProps());
+
+    public static final SaplingBlock BANANA_SAPLING = register("banana_sapling",
+            props -> new SaplingBlock(BANANA_TREE_GROWER, props), saplingProps());
+
+    // ─── Papaya Tree ─────────────────────────────────────────────────────────
+
+    public static final TreeGrower PAPAYA_TREE_GROWER = new TreeGrower(
+            "papaya",
+            Optional.empty(),
+            Optional.of(ModConfiguredFeatures.PAPAYA_TREE),
+            Optional.empty()
+    );
+
+    public static final RotatedPillarBlock PAPAYA_LOG = register("papaya_log",
+            props -> new RotatedPillarBlock(props), logProps());
+
+    public static final PapayaLeavesBlock PAPAYA_LEAVES = register("papaya_leaves",
+            props -> new PapayaLeavesBlock(props), leavesProps());
+
+    public static final SaplingBlock PAPAYA_SAPLING = register("papaya_sapling",
+            props -> new SaplingBlock(PAPAYA_TREE_GROWER, props), saplingProps());
 
     // ─── Galangal Crop ───────────────────────────────────────────────────────
 

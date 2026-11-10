@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:salmon",
+  "result": { "id": "siam_delights:dried_fish" },
+  "experience": 0.35,
+  "cookingtime": 400
+}

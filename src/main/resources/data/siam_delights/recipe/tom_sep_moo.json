@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": { "id": "minecraft:bowl" },
+  "experience": 1.5,
+  "cooking_time": 400,
+  "ingredients": [
+    "minecraft:porkchop",
+    "siam_delights:galangal",
+    "siam_delights:sliced_lemongrass",
+    "siam_delights:red_chili",
+    "siam_delights:shallot"
+  ],
+  "recipe_book_tab": "meals",
+  "result": { "id": "siam_delights:tom_sep_moo" }
+}
